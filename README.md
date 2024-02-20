@@ -18,10 +18,11 @@ This Python program is designed to find "magic hashes" that meet specific criter
 3. **Execute the script** with the required parameters:
 
    ```bash
-   python main.py -l <length> -s <salt> -m <method>
+   python main.py -l <length> -s <salt> -a <algorithm> -m <method>
    ```
    - "-l" or "--length" specifies the length of the random string to hash.
    - "-s" or "--salt" specifies the salt to append/prepend to the string before hashing.
+   - "-a" or "--algorithm" specifies the hashing algorithm to be used (md5 or md4).
    - "-m" or "--method" specifies the method to use for salting (append or prepend).
 
 ## Current Supported Hashing Algorithms
